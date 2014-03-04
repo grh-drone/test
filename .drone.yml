@@ -1,3 +1,2 @@
 image: ruby1.9.3
-safetyDance: "true"
 script: -echo "Hello, world;"
