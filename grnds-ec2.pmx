@@ -7,7 +7,7 @@ documentation: |
   Foo barrrrr
 images:
 - name: EC1
-  source: grnds/ECTest:latest
+  source: grnds/ectest:latest
   category: Web Tier
   type: Default
   ports:
@@ -17,7 +17,7 @@ images:
   - service: EC3
     alias: EC3
 - name: EC2
-  source: grnds/ECTest:latest
+  source: grnds/ectest:latest
   category: Web Tier
   type: Default
   ports:
@@ -25,7 +25,7 @@ images:
   - service: EC3
     alias: EC3
 - name: EC3
-  source: grnds/ECTest:latest
+  source: grnds/ectest:latest
   category: Web Tier
   type: Default
   ports:
