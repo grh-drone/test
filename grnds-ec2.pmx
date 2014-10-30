@@ -1,0 +1,32 @@
+---
+name: Test Panamax
+description: Testing a Panamax box issue
+keywords: Test, Panamax, Bash, CGI
+type: Panamax
+documentation: |
+  Foo barrrrr
+images:
+- name: EC1
+  source: grnds/EC-Test:latest
+  category: Web Tier
+  type: Default
+  ports:
+  links:
+  - service: EC2
+    alias: EC2
+  - service: EC3
+    alias: EC3
+- name: EC2
+  source: grnds/EC-Test:latest
+  category: Web Tier
+  type: Default
+  ports:
+  links:
+  - service: EC3
+    alias: EC3
+- name: EC3
+  source: grnds/EC-Test:latest
+  category: Web Tier
+  type: Default
+  ports:
+  links:
