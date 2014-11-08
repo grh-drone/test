@@ -1,0 +1,24 @@
+---
+name: GR-Panamax.05
+description: The Grand Rounds stack
+keywords: Test, Panamax, Bash, CGI
+type: Panamax
+documentation: |
+  Foo barrrrr
+images:
+- name: mysql
+  source: grnds/mysql:latest
+  category: gr
+  type: gr
+  links:
+  - service: EC2
+    alias: EC2
+  - service: EC3
+    alias: EC3
+- name: frick
+  source: grnds/ectest:latest
+  category: gr
+  type: gr
+  links:
+  - service: mysql
+    alias: mysql
