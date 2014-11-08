@@ -10,6 +10,8 @@ images:
   source: grnds/ectest:latest
   category: Web Tier
   type: Default
+  expose:
+  - '80'
   ports:
   links:
   - service: EC2
@@ -21,6 +23,8 @@ images:
   category: Web Tier
   type: Default
   ports:
+  expose:
+  - '80'
   links:
   - service: EC3
     alias: EC3
@@ -29,4 +33,6 @@ images:
   category: Web Tier
   type: Default
   ports:
+  expose:
+  - '80'
   links:
