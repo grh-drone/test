@@ -7,7 +7,7 @@ documentation: |
   Foo barrrrr
 images:
 - name: mysql
-  source: grnds/ectest:latest
+  source: grnds/mysql:latest
   category: Web Tier
   type: Default
   ports:

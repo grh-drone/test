@@ -10,11 +10,6 @@ images:
   source: grnds/mysql:latest
   category: Web Tier
   type: Default
-  links:
-  - service: EC2
-    alias: EC2
-  - service: EC3
-    alias: EC3
 - name: frick
   source: grnds/panamax-frick:latest
   category: Web Tier
