@@ -16,7 +16,7 @@ images:
   - service: EC3
     alias: EC3
 - name: frick
-  source: grnds/ectest:latest
+  source: grnds/panamax-frick:latest
   category: gr
   type: gr
   links:
