@@ -10,9 +10,10 @@ images:
   source: grnds/ectest:latest
   category: Web Tier
   type: Default
-  expose:
-  - '80'
   ports:
+  - host_port: '80'
+    container_port: '8091'
+    proto: TCP
   links:
   - service: EC2
     alias: EC2
@@ -23,8 +24,9 @@ images:
   category: Web Tier
   type: Default
   ports:
-  expose:
-  - '80'
+  - host_port: '80'
+    container_port: '8092'
+    proto: TCP
   links:
   - service: EC3
     alias: EC3
@@ -33,6 +35,7 @@ images:
   category: Web Tier
   type: Default
   ports:
-  expose:
-  - '80'
+  - host_port: '80'
+    container_port: '8093'
+    proto: TCP
   links:
