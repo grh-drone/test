@@ -8,8 +8,8 @@ documentation: |
 images:
 - name: mysql
   source: grnds/mysql:latest
-  category: gr
-  type: gr
+  category: Web Tier
+  type: Default
   links:
   - service: EC2
     alias: EC2
@@ -17,8 +17,8 @@ images:
     alias: EC3
 - name: frick
   source: grnds/panamax-frick:latest
-  category: gr
-  type: gr
+  category: Web Tier
+  type: Default
   links:
   - service: mysql
     alias: mysql
