@@ -1,12 +1,12 @@
 ---
-name: GR-Panamax.04
+name: GR-Panamax.07
 description: Testing a Panamax box issue
 keywords: Test, Panamax, Bash, CGI
 type: Panamax
 documentation: |
   Foo barrrrr
 images:
-- name: EC1
+- name: mysql
   source: grnds/ectest:latest
   category: Web Tier
   type: Default
