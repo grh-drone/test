@@ -11,8 +11,8 @@ images:
   category: Web Tier
   type: Default
   ports:
-  - host_port: '80'
-    container_port: '8091'
+  - host_port: '8091'
+    container_port: '80'
     proto: TCP
   links:
   - service: EC2
@@ -24,8 +24,8 @@ images:
   category: Web Tier
   type: Default
   ports:
-  - host_port: '80'
-    container_port: '8092'
+  - host_port: '8092'
+    container_port: '80'
     proto: TCP
   links:
   - service: EC3
@@ -35,7 +35,7 @@ images:
   category: Web Tier
   type: Default
   ports:
-  - host_port: '80'
-    container_port: '8093'
+  - host_port: '8093'
+    container_port: '80'
     proto: TCP
   links:
