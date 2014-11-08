@@ -1,5 +1,5 @@
 ---
-name: Test Panamax
+name: GR-Panamax.02
 description: Testing a Panamax box issue
 keywords: Test, Panamax, Bash, CGI
 type: Panamax
